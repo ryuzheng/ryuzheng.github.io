@@ -224,11 +224,6 @@ background: rgba(255,255,255,0.6);   //这里就是设置rgb三种颜色以及�
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#_"><span class="toc-number">1.</span> <span class="toc-text"> </span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#_-1"><span class="toc-number">1.1.</span> <span class="toc-text"> </span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#_-1"><span class="toc-number">1.2.</span> <span class="toc-text"> </span></a></li></ol>
-  </div>
-
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
@@ -339,8 +334,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -457,6 +450,11 @@ $(document).ready(function(){
 }); 
 </script>
 
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7eeee622646a873b3cbff91ea74312cc' type='text/javascript'%3E%3C/script%3E"));
+</script>
 
 
   </body>
