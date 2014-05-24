@@ -4,7 +4,7 @@
   <subtitle><![CDATA[筚路蓝缕，以启山林]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://zhengzexin.com/"/>
-  <updated>2014-05-24T13:37:06.866Z</updated>
+  <updated>2014-05-24T17:11:45.969Z</updated>
   <id>http://zhengzexin.com/</id>
   
   <author>
@@ -13,6 +13,26 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[EarthCam公布“归零地”9.11纪念馆重建视频]]></title>
+    <link href="http://zhengzexin.com/2014/05/25/post/"/>
+    <id>http://zhengzexin.com/2014/05/25/post/</id>
+    <published>2014-05-24T16:40:56.000Z</published>
+    <updated>2014-05-24T16:50:59.000Z</updated>
+    <content type="html"><![CDATA[<p>自纽约政府开始建设“归零地(GroundZero)”起，EarthCam公司的CEO Brian Cury就在边上安装了一个摄像头，专门用于记录9.11恐怖袭击事件遗址重建的过程。之后，他又陆续在附近安装了多个摄像头，进而可以多角度地捕捉建设工作。</p>
+<p><img src="http://static.cnbetacdn.com/newsimg/2014/0523/16_1400812073.png_600x600.png" alt="随着9.11纪念博物馆的开放，EarthCam也于日前发布了早前拍摄下的重建视频。据悉，视频拍摄的时间横跨从2004年10月到2014年5月。"></p>
+<object width="640" height="515"><param name="movie" value="http://share.vrs.sohu.com/my/v.swf&autoplay=false&id=69623296&skinNum=1&topBar=1&xuid="></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed width="640" height="515"  allowfullscreen="true" allowscriptaccess="always" quality="high" src="http://share.vrs.sohu.com/my/v.swf&autoplay=false&id=69623296&skinNum=1&topBar=1&xuid=" type="application/x-shockwave-flash"/></embed></object>
+
+<p>什么是爱国？这就是爱国。灾难过后，每个国家都会有不同的表现，我们看到美帝还是不乏这些感人的事情，小小的个人也可以为社会做出一份贡献。为什么9·11至今还能留下这么深刻的印象，就是因为别人所做的事情，一直有做，而不是发生什么几年后赈灾粮腐烂发臭被人揭发的事情。这是我们要学习的。</p>
+]]></content>
+    
+    
+      <category term="9·11 视频" scheme="http://zhengzexin.com/tags/9%C2%B711%20%E8%A7%86%E9%A2%91/"/>
+    
+      <category term="短片" scheme="http://zhengzexin.com/categories/%E7%9F%AD%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hexo's Hello World]]></title>
@@ -613,51 +633,6 @@
       <category term="愚人节" scheme="http://zhengzexin.com/tags/%E6%84%9A%E4%BA%BA%E8%8A%82/"/>
     
       <category term="网站" scheme="http://zhengzexin.com/categories/%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[解决印象笔记流量不足、连接不到服务器]]></title>
-    <link href="http://zhengzexin.com/2014/03/31/resolving-notes-is-less-than-impressed-unable-to-connect-to-server/"/>
-    <id>http://zhengzexin.com/2014/03/31/resolving-notes-is-less-than-impressed-unable-to-connect-to-server/</id>
-    <published>2014-03-31T15:43:15.000Z</published>
-    <updated>2014-05-22T12:14:34.000Z</updated>
-    <content type="html"><![CDATA[<p>记载关于印象笔记的两件事，也许对于用大象的朋友会有帮助。</p>
-<h5 id="_"> </h5>
-<p>一、流量不够用了</p>
-<p>前些日子，因为总上实验课，于是就顺手用印象笔记把实验的图片都拍下来整理了，没想到的是，我是一个穷逼的免费用户，每个月只有60M的上传流量，而现在的手机拍照片，动辄都起码2M以上，所以一瞬间就发现这流量已经爆了。</p>
-<p>真是可惜啊，其实印象笔记真的是挺好用的（自从我认真地学习了网上别人的经验后），没办法就上网去找有没有解决的方法，恰好让我看到百度经验有人说发邮件给客服就能得到暂时的增加流量。</p>
-<p>于是就死马当活马治，发了封邮件过去&mdash;&mdash;</p>
-<a id="more"></a>
-
-<p><img src="http://ryuz.u.qiniudn.com/resource.jpg" alt="印象笔记客服邮件" title="印象笔记给我的回复"></p>
-<p>嘿，没想到还真管用！于是我赶紧上网页版一看，MMD，居然不止送多我60M，而是整整120M。</p>
-<p><img src="http://ryuz.u.qiniudn.com/resourc.jpg" alt="印象笔记上传流量"></p>
-<h5 id="_-1"> </h5>
-<p>二、连接不到服务器</p>
-<p>对于使用windows客户端的朋友来说，连接不到服务器是经常遇到的事情，而我自己也摸索出一门套路来对付。首先你得是印象笔记国内的用户，而不是国际版的用户，因为国外的服务器连接不上的话，我也没有什么好方法。</p>
-<p>对于国内版的大象，连接不到服务器，有9成都是IE在作怪，所以首先，你要排查是不是IE出错了。</p>
-<p>首先要做的就是打开IE，</p>
-<ul>
-<li>看IE能不能上网；</li>
-<li>如果IE能上网，那就打开CMD，输入<code>ping app.yinxiang.com -t</code>,如果ping不上，可以说明你的IP或者DNS有问题）；</li>
-<li>如果不能上网，看看有没有勾选&ldquo;脱机&rdquo;选项（当然要取消脱机）；</li>
-<li>如果IE还是不能上网，不用想了，找软件修复网络连接吧，网上有很多这样的软件；</li>
-</ul>
-<p>其实是因为印象笔记是要靠IE来连接同步笔记的，所以如果IE连不到印象笔记的服务器，就肯定同步不了了，所以大家如果同步出问题，多点检查IE就可以解决了。</p>
-<p>其实印象笔记是很不错的笔记软件，但如果大家觉得入门难或者同步出问题，我推荐国内的有道云笔记和为知笔记，这两款都很不错。</p>
-]]></content>
-    <summary type="html"><![CDATA[<p>记载关于印象笔记的两件事，也许对于用大象的朋友会有帮助。</p>
-<h5 id="_"> </h5>
-<p>一、流量不够用了</p>
-<p>前些日子，因为总上实验课，于是就顺手用印象笔记把实验的图片都拍下来整理了，没想到的是，我是一个穷逼的免费用户，每个月只有60M的上传流量，而现在的手机拍照片，动辄都起码2M以上，所以一瞬间就发现这流量已经爆了。</p>
-<p>真是可惜啊，其实印象笔记真的是挺好用的（自从我认真地学习了网上别人的经验后），没办法就上网去找有没有解决的方法，恰好让我看到百度经验有人说发邮件给客服就能得到暂时的增加流量。</p>
-<p>于是就死马当活马治，发了封邮件过去&mdash;&mdash;</p>
-]]></summary>
-    
-      <category term="印象笔记" scheme="http://zhengzexin.com/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="未分类" scheme="http://zhengzexin.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
     
   </entry>
   
