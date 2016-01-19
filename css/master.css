@@ -16,9 +16,10 @@
 /*****/
 
 body {
-  background: url(../images/bg-pic.jpg) no-repeat;
+  background-image: url(../images/bg-pic.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center 100%;
   background-attachment: fixed;
   overflow-x: hidden;
   overflow-y: auto;
