@@ -1,0 +1,78 @@
+/**Font**/
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Indie_Flower/IndieFlower.ttf);
+}
+
+@font-face {
+  font-family: 'Sigmar One';
+  font-style: normal;
+  font-weight: 400;
+  src:  url(../fonts/Sigmar_One/SigmarOne.ttf);
+}
+/*****/
+
+body {
+  background: url(../images/bg-pic.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100%;
+}
+h1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 64px;
+}
+h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+h2 {
+  font-family: 'Indie Flower', cursive;
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: -10px;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 1px;
+  margin-top: 150px;
+  text-align: center;
+}
+.line {
+  width: 20%;
+  margin: 10px auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+nav {
+  text-align: center;
+}
+nav ul {
+  padding: 1px;
+}
+nav ul li {
+  display: inline;
+  margin: 0 5px;
+}
+nav ul li a {
+  font-family: 'Indie Flower', cursive;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+nav ul li a:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
