@@ -74,6 +74,5 @@ nav ul li a:hover {
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
-    margin-top: 0px;
   }
 }
