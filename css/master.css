@@ -4,19 +4,19 @@
   font-family: 'Indie Flower';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Indie_Flower/IndieFlower.ttf);
+  src: url(../fonts/Indie_Flower/IndieFlower.ttf);
 }
 
 @font-face {
   font-family: 'Sigmar One';
   font-style: normal;
   font-weight: 400;
-  src:  url(fonts/Sigmar_One/SigmarOne.ttf);
+  src:  url(../fonts/Sigmar_One/SigmarOne.ttf);
 }
 /*****/
 
 body {
-  background: url(images/bg-pic.jpg) no-repeat;
+  background: url(../images/bg-pic.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -74,5 +74,6 @@ nav ul li a:hover {
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
+    margin-top: 0px;
   }
 }
