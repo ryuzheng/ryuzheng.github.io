@@ -16,10 +16,8 @@
 /*****/
 
 body {
-  background-image: url(../images/bg-pic.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/bg-pic.jpg) center no-repeat;
   background-size: cover;
-  background-position: center 100%;
   background-attachment: fixed;
   overflow-x: hidden;
   overflow-y: auto;
@@ -60,7 +58,7 @@ nav ul li {
   display: inline;
   margin: 0 5px;
 }
-nav ul li a {
+nav ul li a, nav ul span {
   font-family: 'Indie Flower', cursive;
   text-decoration: none;
   color: #fff;
