@@ -13,9 +13,6 @@
   line-height: 2rem;
   position: relative;
   -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
 }
 #fork-on-coding a:hover {
@@ -53,14 +50,8 @@
     top: 60px;
     right: -60px;
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-    -ms-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
   }
 }
@@ -89,37 +80,22 @@
   margin-bottom: -30px;
 }
 .tooltip a:hover+.tooltip-content {
-    opacity: 1;
-  }
+  opacity: 1;
+}
 .tooltip .tooltip-content {
   -webkit-transform-origin: 150% 100%;
-  -moz-transform-origin: 150% 100%;
-  -ms-transform-origin: 150% 100%;
-  -o-transform-origin: 150% 100%;
   transform-origin: 150% 100%;
   -webkit-transition: opacity 1s, -webkit-transform 1s;
-  -moz-transition: opacity 1s, -moz-transform 1s;
-  -ms-transition: opacity 1s, -ms-transform 1s;
-  -o-transition: opacity 1s, -o-transform 1s;
   transition: opacity 1s, transform 1s;
 }
 .tooltip .tooltip-content {
   -webkit-transform: scale3d(0, 0, 1);
-  -moz-transform: scale3d(0, 0, 1);
-  -ms-transform: scale3d(0, 0, 1);
-  -o-transform: scale3d(0, 0, 1);
   transform: scale3d(0, 0, 1);
   -webkit-transition: opacity 1s, -webkit-transform 1s;
-  -moz-transition: opacity 1s, -moz-transform 1s;
-  -ms-transition: opacity 1s, -ms-transform 1s;
-  -o-transition: opacity 1s, -o-transform 1s;
   transition: opacity 1s, transform 1s;
 }
 .tooltip a:hover+.tooltip-content {
-    pointer-events: auto;
-    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-    -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-    -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-    -o-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  pointer-events: auto;
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
 }
