@@ -63,9 +63,12 @@
   position: relative;
   z-index: 999;
 }
+.tooltip a {
+  z-index:9999;
+}
 .tooltip-content {
   position: absolute;
-  z-index: 9999;
+  z-index: 99;
   width: 80px;
   height: 80px;
   cursor: default;
@@ -73,26 +76,24 @@
 }
 .tooltip-content img {
   position: absolute;
-  z-index: 9999;
+  z-index: 99;
   left: 100%;
   margin-left: 50px;
   bottom: 50%;
   margin-bottom: -30px;
 }
+.tooltip a+.tooltip-content {
+  opacity: 0;
+}
 .tooltip a:hover+.tooltip-content {
   opacity: 1;
 }
 .tooltip .tooltip-content {
-  -webkit-transform-origin: 150% 100%;
-  transform-origin: 150% 100%;
-  -webkit-transition: opacity 1s, -webkit-transform 1s;
-  transition: opacity 1s, transform 1s;
-}
-.tooltip .tooltip-content {
-  -webkit-transform: scale3d(0, 0, 1);
-  transform: scale3d(0, 0, 1);
-  -webkit-transition: opacity 1s, -webkit-transform 1s;
-  transition: opacity 1s, transform 1s;
+  -webkit-transform: translate3d(0,10px,0) rotate3d(1,1,1,30deg);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
 }
 .tooltip a:hover+.tooltip-content {
   pointer-events: auto;
