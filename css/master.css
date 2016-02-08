@@ -87,15 +87,22 @@ nav ul li a, nav ul span {
 }
 .link li a:after {
   margin: 0;
+  -webkit-transform: scale(2) rotate(0) skew(0) translateX(-2em) translateY(1em);
+  -ms-transform: scale(2) rotate(0) skew(0) translateX(-2em) translateY(1em);
   transform: scale(2) rotate(0) skew(0) translateX(-2em) translateY(1em);
   opacity: 1;
   visibility: hidden;
 }
 .link li a:hover:after {
+  -webkit-transform: rotate(30deg) translateX(8em) translateY(-20em);
+  -ms-transform: rotate(30deg) translateX(8em) translateY(-20em);
   transform: rotate(30deg) translateX(8em) translateY(-20em);
   opacity: 0;
   visibility: visible;
+  -webkit-transition: opacity 1.8s, visibility .15s, -webkit-transform 2s;
+  transition: opacity 1.8s, visibility .15s, -webkit-transform 2s;
   transition: transform 2s, opacity 1.8s, visibility .15s;
+  transition: transform 2s, opacity 1.8s, visibility .15s, -webkit-transform 2s;
 }
 
 /*****/
@@ -114,7 +121,6 @@ footer {
     width: 100%;
     margin-top: 0px;
   }
-
   footer {
     display: none;
   }
