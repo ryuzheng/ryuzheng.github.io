@@ -1,0 +1,106 @@
+#fork-on-coding {
+  display: none;
+}
+#fork-on-coding a {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px 40px;
+  font-size: 1rem;
+  line-height: 2rem;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#fork-on-coding a:hover {
+  background: #25c;
+  color: #fff;
+}
+#fork-on-coding a:before, #fork-on-coding a:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 1px;
+  background: #fff;
+}
+#fork-on-coding a:after {
+  bottom: 1px;
+  top: auto;
+}
+@media screen and (min-width: 800px) {
+  #fork-on-coding {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    z-index: 9999;
+  }
+  #fork-on-coding a {
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    right: -60px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Tooltip */
+
+.tooltip {
+  display: inline;
+  position: relative;
+  z-index: 999;
+}
+.tooltip a {
+  z-index: 9999;
+}
+.tooltip-content {
+  position: absolute;
+  z-index: 99;
+  width: 80px;
+  height: 80px;
+  cursor: default;
+  pointer-events: none;
+}
+.tooltip-content img {
+  position: absolute;
+  z-index: 99;
+  left: 100%;
+  margin-left: 50px;
+  bottom: 50%;
+  margin-bottom: -30px;
+}
+.tooltip a+.tooltip-content {
+  opacity: 0;
+}
+.tooltip a:hover+.tooltip-content {
+  opacity: 1;
+}
+.tooltip .tooltip-content {
+  -webkit-transform: translate3d(0, 10px, 0) rotate3d(1, 1, 1, 30deg);
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+}
+.tooltip a:hover+.tooltip-content {
+  pointer-events: auto;
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
