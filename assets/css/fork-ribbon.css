@@ -1,0 +1,77 @@
+.fork-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  overflow: hidden;
+  height: 200px;
+  z-index: 9998;
+}
+.fork-ribbon a {
+  position: absolute;
+  box-sizing: border-box;
+  top: 60px;
+  right: -60px;
+  width: 275px;
+  z-index: 9999;
+  padding: 0 40px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+.fork-ribbon a:before,
+.fork-ribbon a:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 1px;
+  background: #fff;
+}
+.fork-ribbon a:after {
+  bottom: 1px;
+  top: auto;
+}
+.fork-ribbon a:hover {
+  background: #25c;
+}
+.fork-ribbon a:hover + .fork-ribbon-logo {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+          transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
+.fork-ribbon .fork-ribbon-logo {
+  opacity: 0;
+  position: absolute;
+  z-index: 9997;
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+  -webkit-transform: translate3d(0, 10px, 0) rotate3d(1, 1, 1, 30deg);
+          transform: translate3d(0, 10px, 0) rotate3d(1, 1, 1, 30deg);
+  -webkit-transform-origin: 50% 100%;
+      -ms-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+          transition: opacity 0.3s, transform 0.3s;
+}
+.fork-ribbon .fork-ribbon-logo img {
+  position: absolute;
+  z-index: 9997;
+  left: 100%;
+  margin-left: 50px;
+  bottom: 50%;
+  margin-bottom: -30px;
+}

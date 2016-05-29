@@ -1,60 +1,132 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Astral by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
 <head>
-    <title>CodewithLove</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<title>&lt;&gt; with ❤</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/octicons.css">
+	<link rel="stylesheet" href="assets/css/fork-ribbon.css">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
 
+<body>
+	<div class="fork-ribbon">
+		<a href="https://github.com/ryuzheng/Fork-Ribbon" title="Fork me on Github">Fork me on Github</a>
+		<div class="fork-ribbon-logo">
+			<img src="images/GitHub-Mark-64px.png">
+		</div>
+	</div>
 
-<body class="loading">
-    <div id="wrapper">
-        <div id="bg"></div>
-        <div id="overlay"></div>
-        <div id="main">
-            <!-- Header -->
-            <header id="header">
-                <h1 class="band infinite animated rubberBand">&lt; / ></h1>
-                <h2>Are You a One or a Zero?</h2>
-                <p><a href="https://github.com/ryuzheng">Front End</a> &nbsp;&bull;&nbsp; <a href="http://zhengzexin.com">Bioscience</a> &nbsp;&bull;&nbsp; <a href="http://thirten.lofter.com">Rabbit Shisan</a></p>
-                <nav>
-                    <ul>
-                        <li><a href="https://github.com/ryuzheng" class="icon fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="https://www.instagram.com/ryuzheng/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="mailto:ryuzheng@foxmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-                    </ul>
-                </nav>
-            </header>
+	<!-- Wrapper-->
+	<div id="wrapper">
 
-            <!-- Footer -->
-            <footer id="footer">
-                <span class="copyright">&copy; <a href="http://codewith.love">Codewith.Love</a>  Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-            </footer>
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#me" class="icon fa-home active"><span>Home</span></a>
+			<a href="#blog" class="icon fa-folder"><span>Blog</span></a>
+			<a href="mailto:ryuzheng@foxmail.com" class="icon fa-envelope"><span>Contact</span></a>
+			<a href="https://github.com/ryuzheng" class="icon fa-github"><span>Github</span></a>
+		</nav>
 
-        </div>
-    </div>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script>
-        window.onload = function() {
-            document.body.className = '';
-        }
-        window.ontouchmove = function() {
-            return false;
-        }
-        window.onorientationchange = function() {
-            document.body.scrollTop = 0;
-        }
-    </script>
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="me" class="panel">
+				<header>
+					<h1>Code with <mark>Love</mark></h1>
+					<br />
+					<div id="t">
+						<ins>1</ins>Hello, I am Ryu Zheng. <ins>0.6</ins>Welcome to this site. <ins>0.4</ins>
+						<br />I am a bioscience student. <ins>0.4</ins><del>Oh,  I have just graduated. </del><ins>0.4</ins>
+						<br />So I am now working on bio-informatics. <ins>1</ins>
+						<br /><ins>0.6</ins>
+						<br /><ins>0.6</ins>
+						<br />I live with a rabbit called <del>拾三<ins>0.6</ins></del>Shisan.
+						<br /><ins>1.0</ins>I love <del>JavaScript<ins>0.6</ins></del><del>Python<ins>0.6</ins></del><del>and so on<ins>0.6</ins></del>
+						<mark>coding</mark>.
+					</div>
+				</header>
+				<a href="#blog" class="jumplink pic">
+					<span class="arrow icon fa-chevron-right" title="See my blog"></span>
+					<img src="images/me.jpg" alt="" />
+				</a>
+			</article>
+
+			<!-- Work -->
+			<article id="blog" class="panel">
+				<header>
+					<h2>Blog</h2>
+				</header>
+				<p>
+					"Are You a One or a Zero?"
+				</p>
+				<section>
+					<iframe src="http://zhengzexin.com" width="100%" height="600"></iframe>
+				</section>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span></li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/skel-viewport.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/t.min.js"></script>
+	<script type="text/javascript">
+		/*<![CDATA[*/
+		var fin = !1;
+		$(function() {
+			$('.tagline').css("opacity", "1");
+			$('#t').t({
+				speed: 57,
+				delay: 0.8,
+				speed_vary: true,
+				mistype: 10,
+				typing: function(elem, chars_total, chars_left, _char) {
+					if (_char == '*') foo();
+				},
+
+				fin: function() {
+
+					if (fin == !1) {
+						fin = !!1; //avoids triggering after 'add' cmd
+						window.setTimeout(function() {
+							$('#t').t('add', '<br /><del>Still here?<ins>0.6</ins><br />Go to code!');
+						}, 2e4);
+						window.setInterval(function() {
+							$('#t').find('.t-caret').toggle();
+						}, 5e2);
+					}
+				}
+			});
+		});
+		/*]]>*/
+	</script>
 </body>
 
 </html>
